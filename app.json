@@ -4,7 +4,6 @@
     "slug": "crash-course",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
     "splash": {
@@ -17,17 +16,17 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.priyank.aora"
     },
     "web": {
       "bundler": "metro",
-      "output": "static",
-      "favicon": "./assets/images/favicon.png"
+      "output": "static"
     },
     "plugins": [
-      "expo-router"
+      "expo-router",
+      "expo-video"
     ],
     "experiments": {
       "typedRoutes": true
